@@ -1,4 +1,4 @@
-!master
+!master save to github
     implicit none
     integer,parameter::num_threads=4
     integer,parameter::n=12
