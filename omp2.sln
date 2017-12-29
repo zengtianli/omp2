@@ -8,11 +8,14 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
+		debugserial|x86 = debugserial|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DC71E1E1-56B7-4F8C-9864-9169F458E93A}.Debug|x86.ActiveCfg = Debug|Win32
 		{DC71E1E1-56B7-4F8C-9864-9169F458E93A}.Debug|x86.Build.0 = Debug|Win32
+		{DC71E1E1-56B7-4F8C-9864-9169F458E93A}.debugserial|x86.ActiveCfg = debugserial|Win32
+		{DC71E1E1-56B7-4F8C-9864-9169F458E93A}.debugserial|x86.Build.0 = debugserial|Win32
 		{DC71E1E1-56B7-4F8C-9864-9169F458E93A}.Release|x86.ActiveCfg = Release|Win32
 		{DC71E1E1-56B7-4F8C-9864-9169F458E93A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
