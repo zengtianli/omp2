@@ -1,6 +1,6 @@
 !master save to github
     implicit none
-    integer,parameter::num_threads=4
+    integer,parameter::num_threads=1
     integer,parameter::n=12
     integer::i,omp_get_thread_num
     real::a=100.0
@@ -30,7 +30,7 @@
     
     !$omp end parallel
     print*,"serial value of a=100.0"
-    !$ print*,"parallel value of a=200"
+    !!$ print*,"parallel value of a=200"
     do i=1,n
     print'("array b (",i2,")=",f15.6)',i,b(i)
       !  print'("aa,   (",i2,")   ",f15.6)',i,b(i)
